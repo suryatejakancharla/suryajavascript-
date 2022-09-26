@@ -1,0 +1,35 @@
+<!--
+The splice() method :
+method adds/removes items to/from an array, and returns the removed item(s).
+-->
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<button onclick="addding()">Add_values_in_Middle</button> &nbsp;&nbsp;&nbsp;
+<button onclick="removing()">Removing_values_in_Middle</button>
+
+<p id="demo"></p>
+
+<script>
+				//0		  1         2		3
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+document.getElementById("demo").innerHTML = fruits;
+
+function addding() 
+{
+  fruits.splice(2, 0, "hello","hi");//index_position,no_values_for_remove,"add new values"
+  document.getElementById("demo").innerHTML = fruits;
+}
+
+
+function removing() 
+{
+  fruits.splice(0, 1);
+  document.getElementById("demo").innerHTML = fruits;
+}
+</script>
+
+</body>
+</html>

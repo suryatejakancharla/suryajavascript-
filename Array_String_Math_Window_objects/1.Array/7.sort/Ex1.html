@@ -1,0 +1,39 @@
+<!--
+The sort() method :
+
+The sort() method sorts the items of an array.
+
+The sort order can be either alphabetic or numeric, and either ascending (up) or descending (down).
+
+
+Syntax:
+------
+array.slice(start, end);
+
+The slice() method selects the elements starting at the given start argument(The first element has an index of 0), and ends at, but does not include, the given end argument
+
+
+-->
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<button onclick="myFunction()">Sorting</button>
+
+<p id="demo"></p>
+
+<script>
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+document.getElementById("demo").innerHTML = fruits;
+
+function myFunction() {
+  fruits.sort();
+  fruits.reverse();
+  document.getElementById("demo").innerHTML = fruits;
+}
+</script>
+
+</body>
+</html>

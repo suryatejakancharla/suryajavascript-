@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+document.getElementById("demo").innerHTML = fruits;
+
+function myFunction() {
+var req=document.getElementById('t1').value;
+  fruits.push(req);
+  document.getElementById("demo").innerHTML = fruits;
+}
+</script>
+
+<input type="" id="t1" />
+
+
+</body>
+</html>

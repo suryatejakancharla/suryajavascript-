@@ -1,0 +1,19 @@
+<html>
+   <meta charset="utf-8"/>
+   <script>
+      function over(){
+         var ele = document.getElementById('btn');
+         ele.style.background='red';
+         ele.style.color='white';
+      }
+      function out(){
+         var ele = document.getElementById('btn');
+         ele.style.background='Green';
+         ele.style.color='black';
+      }
+   </script>
+<body> Demonstrating onmouseout based on DOM object</br>
+    <input type="button" id="btn" value="Submit Button" onmouseover="over()"
+    onmouseout="out()" />
+</body>
+</html>

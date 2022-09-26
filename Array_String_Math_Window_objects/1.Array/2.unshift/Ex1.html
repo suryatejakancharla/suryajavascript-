@@ -1,0 +1,26 @@
+<!--
+The unshift() method:
+Add new items to the beginning of an array.
+-->
+
+<!DOCTYPE html>
+<html>
+<body>
+
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+document.getElementById("demo").innerHTML = fruits;
+
+function myFunction() {
+  fruits.unshift("Lemon", "Pineapple");
+  document.getElementById("demo").innerHTML = fruits;
+}
+</script>
+
+</body>
+</html>

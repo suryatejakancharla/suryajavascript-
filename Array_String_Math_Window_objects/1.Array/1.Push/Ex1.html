@@ -1,0 +1,52 @@
+<!--
+The push() method:
+Adds new item/'s to the end of an array
+-->
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<button onclick="myFunction()">Try it</button>
+
+<br /><br /><br />
+
+<span id="demo"></span>
+
+
+<script>
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+document.getElementById("demo").innerHTML = fruits;
+
+
+function myFunction() 
+{
+  fruits.push("Kiwi","HELLO");
+  document.getElementById("demo").innerHTML = fruits;
+}
+</script>
+
+
+
+<br /><br /><br />
+
+
+
+<script>
+
+var no=[]
+
+for(var i=1;i<=10;i++)
+{
+  no.push(i)
+}
+
+
+document.write( no )
+
+
+</script>
+
+
+</body>
+</html>

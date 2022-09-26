@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>JavaScript Generate Date Strings</title>
+</head>
+<body>
+    <script>
+    var d = new Date();
+    document.write(d.toDateString() + "<br>"); // Display an abbreviated date string
+    document.write(d.toLocaleDateString() + "<br>"); // Display a localized date string
+    document.write(d.toISOString() + "<br>"); // Display the ISO standardized date string
+    document.write(d.toUTCString() + "<br>"); // Display a date string converted to UTC time
+    document.write(d.toString()); // Display the full date string with local time zone
+    </script>
+</body>
+</html>

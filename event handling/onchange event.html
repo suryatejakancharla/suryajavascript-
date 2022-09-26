@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html>
+
+<body>
+
+Please Enter name: <input type="text" id="Firstname">
+
+<script>
+
+document.getElementById("Firstname").onchange = function() {myFunction()};
+
+function myFunction() {
+
+  var x = document.getElementById("Firstname");
+
+  x.value = x.value.toUpperCase();
+
+}
+
+</script>
+
+</body>
+
+</html>

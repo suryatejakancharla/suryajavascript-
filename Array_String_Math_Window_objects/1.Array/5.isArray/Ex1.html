@@ -1,0 +1,27 @@
+<!--
+The isArray() method :
+Determines whether an object is an array.
+
+This function returns true if the object is an array, and false if not.
+-->
+<!DOCTYPE html>
+<html>
+<body>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() 
+{
+  var fruits = 
+  ["Banana", "Orange", "Apple", "Mango"];
+  
+  var x = document.getElementById("demo");
+  x.innerHTML = Array.isArray(fruits);
+}
+</script>
+
+</body>
+</html>
